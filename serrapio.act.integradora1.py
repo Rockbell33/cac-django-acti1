@@ -12,7 +12,7 @@ class Cuenta:
 
     @property
     def __str__(self):
-        print("{} tiene depositada la suma de{}".format(self._titular, self._cantidad))
+        print("{} tiene depositada la suma de{}".format(self, titular, cantidad))
 
     def ingresar(self, cantidad):
         self.cantidad=self.cantidad+cantidad
@@ -40,14 +40,14 @@ class CuentaJoven (Cuenta):
 
     
     @property
-    def titular_valido(self.edad)
+    def titular_valido(self, edad)
         if self.edad >= 21 and <=25
             return(True)
         else:
             return(False)
 
     def __str__(self):
-        print("{} CuentaJoven {}".format(self._titular, self._bonificacion))
+        print("{} CuentaJoven {}".format(self, titular, bonificacion))
 
     def retirar(self, cantidad):
         if titular_valido(true)
