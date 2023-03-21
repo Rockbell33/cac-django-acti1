@@ -13,7 +13,7 @@ class Persona:
     def __str__(self):
         return 'Nombre: {} Edad: {} DNI: {}'
         
-    def mostrar(self.nombre, self.edad, self.dni)
+    def mostrar(self, edad, dni)
         if edad >= 21:
             print("mayor de edad")
 
